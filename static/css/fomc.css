@@ -1,0 +1,25 @@
+body{
+	background: #000000;
+	padding-top: 20vh;
+
+}
+form{
+	background: #fff;
+	
+}
+.form-container{
+	border-radius: 10px;
+	padding: 30px;
+	box-shadow: 0px 0px 10px 0px;
+}
+.bg{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -40px;
+    left: 40%;
+}
+
+
+
+
