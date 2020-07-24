@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website Checker</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/fomc.css') }}">
+</head>
+
+<body>
+<section class="container-fluid">
+    <section class="row justify-content-center">
+        <section class="col-12 col-sm-6 col-md-3">
+           
+               <form class="form-container" action="{{ url_for('predict')}}"method="post">
+                	<h4 class="text-center font-weight-bold">Website Checker</h4>
+                	<h6 class="text-center font-weight-bold">Checking, is a Website Phishing or not.</h6>
+                	<div class="form-group">
+                    	<input type="text" name="Prefix_Suffix" placeholder="Prefix_Suffix (-1 or 0 or 1)" required="required" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                    </div>
+                	<div class="form-group">        
+                        <input type="text" name="web_traffic" placeholder="web_traffic (-1 or 0 or 1)" required="required" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                    </div>
+                    <div class="form-group">        
+                        <input type="text" name="URL_of_Anchor" placeholder="URL_of_Anchor (-1 or 0 or 1)" required="required" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                    </div>
+                    <div class="form-group">        
+                        <input type="text" name="SSLfinal_State" placeholder="SSLfinal_State (-1 or 0 or 1)" required="required" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Predict</button>
+                </form>
+            
+        </section>
+    </section>	
+</section>
+
+
+   <br>
+   <br>
+   <h4 class="text-center" style="color:white">{{ prediction_text }}</h4>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
