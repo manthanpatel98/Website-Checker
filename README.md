@@ -4,7 +4,7 @@ Checking, is it a Phishing Website or not.
 
 
 
-<img src="https://github.com/manthanpatel98/Alcohol-Quality-Checker/blob/master/README-Resources/AlcoholQuality.jpg" width=600>
+<img src="https://github.com/manthanpatel98/Website-Checker/blob/master/README-Resources/Website-Checker.jpg" width=600>
 
 ---
 
