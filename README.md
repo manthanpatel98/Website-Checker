@@ -30,7 +30,7 @@ Checking, is it a Phishing Website or not.
        'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank',
        'Google_Index', 'Links_pointing_to_page', 'Statistical_report',
        'Result'
-* From the Dataset, we have to predict is the website is **Phishing** website or not.
+* From the Dataset, we have to predict is the website **Phishing** website or not.
 * **ExtraTreesClassifier** has been used for Feature Selection.
 * I have applied **Artificial Neural Network**, **Random Forest**, **Decision Tree**, **K-NN**, **Naive bayes classification**, **Logistic Regression** and **SVM** algorithms but at the end, **RandomForestClassifier** gave better results.
 
