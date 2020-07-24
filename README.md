@@ -9,14 +9,14 @@ Checking, is it a Phishing Website or not.
 ---
 
 ### **Web APP on Heroku**
-<img src="https://github.com/manthanpatel98/Alcohol-Quality-Checker/blob/master/README-Resources/AlcoholQuality.gif" width=600>
+<img src="https://github.com/manthanpatel98/Website-Checker/blob/master/README-Resources/Phishing.gif" width=600>
 
-**[The Project on Heroku](https://alcoholqualitychecker.herokuapp.com/)**
+**[The Project on Heroku](https://websitechecker1.herokuapp.com/)**
 
 ---
 ## The Dataset
-![](https://github.com/manthanpatel98/Alcohol-Quality-Checker/blob/master/README-Resources/Screenshot%20(105).png)
-### **[Dataset](https://github.com/manthanpatel98/Alcohol-Quality-Checker/blob/master/alcohol-quality-data.csv)**
+![](https://github.com/manthanpatel98/Website-Checker/blob/master/README-Resources/Dataset.png)
+### **[Dataset](https://github.com/manthanpatel98/Website-Checker/blob/master/data.csv)**
 ---
 ## **Overview**
 * The Dataset has **2453 rows** and **31 columns**.
@@ -52,7 +52,7 @@ Checking, is it a Phishing Website or not.
 ### **2> Feature Selection:**    
 * There are various techniques for this but here i have used **ExtraTressClassifier**. For, this Project ExtraTressClassifier showed **4 columns** as most important **'Prefix_Suffix'**, **'web_traffic'**, **'URL_of_Anchor'** and **'SSLfinal_State'**.
 
-![Feature Selection](https://github.com/manthanpatel98/Alcohol-Quality-Checker/blob/master/README-Resources/Screenshot%20(106).png)
+![Feature Selection](https://github.com/manthanpatel98/Website-Checker/blob/master/README-Resources/Feature%20Selection.png)
 
 ---   
 
@@ -61,7 +61,7 @@ Checking, is it a Phishing Website or not.
 * To get the proper accuracy and for the proper splitting of the train and test data, I have used **Cross Validation**.
     
 * Here, I have tried many algorithms like **Artificial Neural Network**, **Random Forest**, **Decision Tree**, **K-NN**, **Naive bayes classification**, **Logistic Regression** and **SVM**. 
-* Among these, **RandomForestClassifier** has  gaven the higher accuracy (95%).
+* Among these, **RandomForestClassifier** has  gaven the higher accuracy **(95%)**.
     
 | **No** |  **Algorithms** | **Accuracy** |
 | --- | ---- | ---- |
@@ -75,4 +75,4 @@ Checking, is it a Phishing Website or not.
 
 ---
 
-* For detailed look at Project, go to **[Phishing.ipynb](https://github.com/manthanpatel98/Alcohol-Quality-Checker/blob/master/Alcohol-Quality.ipynb)** and **[model.py](https://github.com/manthanpatel98/Alcohol-Quality-Checker/blob/master/model.py)**
+* For detailed look at Project, go to **[Phishing.ipynb](https://github.com/manthanpatel98/Website-Checker/blob/master/Phishing.ipynb)** and **[model.py](https://github.com/manthanpatel98/Website-Checker/blob/master/model.py)**
